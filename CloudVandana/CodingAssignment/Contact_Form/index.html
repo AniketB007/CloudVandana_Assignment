@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center">Customer Survey Form</h1>
+
+    <form action="">
+        <fieldset>
+        <div class="form-control">
+           <label style="display: block;margin-bottom :10px;">First Name</label>
+           <input type="text" name="FirstName" placeholder="Enter your First Name" required >
+        </div>
+
+        <div class="form-control">
+            <label style="display: block;margin-bottom :10px;">Last Name</label>
+            <input type="text" name="LastName" placeholder="Enter your Last Name" required >
+         </div>
+
+        <div class="form-control">
+            <label style="display: block;margin-bottom :10px;">Enter your Date of Birth</label>
+            <input type="date" name="Dob" placeholder="Enter your Date of Birth" required >
+         </div>
+
+         <div class="form-control">
+            <label style="display: block;margin-bottom :10px;">Select your Country</label>
+             <select required >
+                <option>India</option>
+                <option>America</option>
+                <option>Argentina</option>
+                <option>Bangladesh</option>
+                <option>Bhutan</option>
+                <option>Canada</option>
+                <option>United States</option>
+                <option>Australia</option>
+                <option>Germany</option>
+                <option>China</option>
+                <option>Belgium</option>
+                <option>Brazil</option>
+                <option>Ezypt</option>
+                <option>Pakistan</option>
+                
+
+             </select>
+        </div>
+
+        <div class="form-control" >
+            <label style="display: block;margin-bottom :10px;">Select your gender</label>
+            <input type="checkbox" name="Choice">Male
+            <input type="checkbox" name="Choice">Female
+            <input type="checkbox" name="Choice">Not to say
+         </div>
+
+         <div class="form-control">
+            <label style="display: block;margin-bottom :10px;">Profession</label>
+            <input type="text" name="profession" placeholder="Enter your Profession" required >
+         </div>
+
+         <div class="form-control">
+            <label style="display: block;margin-bottom :10px;">Email Id</label>
+            <input type="email" name="email" placeholder="Enter your Email" required  >
+         </div>
+         <div class="form-control">
+            <label style="display: block;margin-bottom :10px;">Mobile Number</label>
+            <input type="phone" name="profession" maxlength="10" placeholder="Enter your Mobile Number" required >
+         </div>
+
+
+         <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+
+    </fieldset>
+
+    </form>
+</body>
+</html>
